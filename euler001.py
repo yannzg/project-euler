@@ -2,20 +2,4 @@
 
 n = 1000
 
-L = []
-for k in range(1, n):
-    if k % 3 == 0:
-        L.append(k)
-    elif k % 5 == 0:
-        L.append(k)
-    
-print(L)
-
-list = list(set(L))
-print(list)
-
-S = 0
-for x in list:
-    S += x
-
-print(S)
+print(sum(filter(lambda n: n % 3 == 0 or n % 5 == 0, range(1000))))
