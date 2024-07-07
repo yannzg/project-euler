@@ -22,7 +22,8 @@ def find_prime():
     
     return primes[-1]
 
-print(find_prime())
+if __name__ == "__main__":
+    print(find_prime())
 
 
     

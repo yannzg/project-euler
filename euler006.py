@@ -8,7 +8,7 @@ for k in range(1,101):
 
 S2 = S2**2
 
-print(S1, S2)
-
-print(S2 - S1)
+if __name__ == "__main__":
+    print(S1, S2)
+    print(S2 - S1)
 

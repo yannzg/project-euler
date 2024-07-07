@@ -9,4 +9,5 @@ def fibonacci():
         n += 1
     return n
 
-print(fibonacci())
+if __name__ == "__main__":
+    print(fibonacci())
